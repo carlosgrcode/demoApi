@@ -1,7 +1,6 @@
-package com.example.springApi.service;
+package com.example.springApi.api.service;
 
 import com.example.springApi.api.model.Post;
-import com.example.springApi.api.model.User;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

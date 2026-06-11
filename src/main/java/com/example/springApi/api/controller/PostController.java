@@ -1,7 +1,7 @@
 package com.example.springApi.api.controller;
 
 import com.example.springApi.api.model.Post;
-import com.example.springApi.service.PostService;
+import com.example.springApi.api.service.PostService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

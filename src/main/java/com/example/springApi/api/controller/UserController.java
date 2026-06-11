@@ -1,7 +1,8 @@
 package com.example.springApi.api.controller;
 
+import com.example.springApi.api.dto.UserDTO;
 import com.example.springApi.api.model.User;
-import com.example.springApi.service.UserService;
+import com.example.springApi.api.service.UserService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -18,7 +19,7 @@ public class UserController {
     }
 
     @GetMapping                                 /*definimos el get*/
-    public List<User> getUsers(){
+    public List<UserDTO> getUsers(){
         return userService.getUsers();
     }
 

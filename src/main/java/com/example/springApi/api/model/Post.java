@@ -1,7 +1,5 @@
 package com.example.springApi.api.model;
 
-import com.example.springApi.service.UserService;
-
 public class Post {
     private int id;
     private int userid;
