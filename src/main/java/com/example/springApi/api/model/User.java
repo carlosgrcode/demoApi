@@ -1,7 +1,12 @@
 package com.example.springApi.api.model;
+
+import jakarta.validation.constraints.NotNull;
+
 /*la clase usuario con getters y setters y poco mas*/
 public class User {
+    @NotNull
     private final Integer id;
+    @NotNull
     private String name;
     private Integer age;
 

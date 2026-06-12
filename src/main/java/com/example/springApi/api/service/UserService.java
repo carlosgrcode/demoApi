@@ -45,4 +45,8 @@ public class UserService {
         return name;
     }
 
+    public void removeUser(int userId) {
+        users.removeIf(u -> u.getId() == userId);       /*un for pero más limpio*/
+    }
+
 }
